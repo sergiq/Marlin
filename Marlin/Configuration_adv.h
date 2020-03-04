@@ -1501,7 +1501,7 @@
 #define LIN_ADVANCE  // ASWX1-FW-MOD: enabled
 #if ENABLED(LIN_ADVANCE)
   //#define EXTRA_LIN_ADVANCE_K // Enable for second linear advance constants
-  #define LIN_ADVANCE_K 0    // ASWX1-FW-MOD: set to 0 // Unit: mm compression per 1mm/s extruder speed
+  #define LIN_ADVANCE_K 0.16    // ASWX1-FW-MOD: set to 0 // Unit: mm compression per 1mm/s extruder speed
   //#define LA_DEBUG            // If enabled, this will generate debug information output over USB.
 #endif
 
